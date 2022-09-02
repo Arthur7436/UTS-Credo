@@ -8,3 +8,5 @@ This is where I will mainly place my practice projects that are not according to
 + React JS
 + Docker
 + JavaScript
+
+Date started: 2nd September
