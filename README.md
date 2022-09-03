@@ -1,6 +1,7 @@
 UTS Credo projects
 
-This is where I will mainly place my practice projects that are not according to the other curriculums that are shown within my other repositories. The following things I would like to achieve whilst volunteering at Credo UTS include:
+This is where I will mainly place my practice projects that are not according to the main curriculums that I will be following shown within my Free-Code-Camp repository. The following languages/frameworks I would like to achieve whilst volunteering at Credo UTS include:
+
 + HTML
 + CSS
 + Bootstrap 5 
