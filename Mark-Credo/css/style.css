@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+
+:root {
+    --bs-credo-green-main:#33a02c;
+    --bs-link-color:#33a02c;
+    --bs-link-hover-color:#4dc66b;
+    --bs-body-font-family: 'Source Sans Pro', sans-serif;
+}
+
+  .dropdown:hover .dropdown-menu{
+    display: block;
+  }
+
+  .nav-link:hover {
+    font-weight: bold;
+  }
+
+  nav > ul > li > .nav-link {
+    font-weight: bold;
+  }
+
+  nav > ul > li > .nav-link:hover {
+    color:var(--bs-link-hover-color);
+  }
+
+  body > div > div > div > h1 > a {
+    font-family: var(--bs-body-font-family);
+  }
+
+  section > p > a {
+    margin-top: 40px;
+    margin-bottom: 90px;
+    line-height: 5;
+  }
+  
