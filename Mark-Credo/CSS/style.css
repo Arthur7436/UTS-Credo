@@ -25,6 +25,7 @@
 
   body > div > div > div > h1 > a {
     font-family: var(--bs-body-font-family);
+    text-decoration:none
   }
 
   section > p > a {
@@ -32,4 +33,11 @@
     margin-bottom: 90px;
     line-height: 5;
   }
-  
+
+  nav {
+    justify-content: end;
+  }
+
+  body > div {
+    padding: 10px;
+  }
