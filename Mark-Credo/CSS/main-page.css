@@ -20,7 +20,7 @@
     border-top: transparent;
     border-left: transparent;
     border-right: transparent;
-    border-width: 0.1px;
+    border-width: 0.5px;
     transition-duration: 0.2s;
     align-content: center;
     justify-content: center;
@@ -42,7 +42,7 @@
     border-top: transparent;
     border-left: transparent;
     border-right: transparent;
-    border-bottom: 0.1px solid green;
+    border-bottom: 0.5px solid green;
     transition-duration: 0.2s;
     height: 100%;
     align-content: center;
