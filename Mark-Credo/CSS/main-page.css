@@ -24,6 +24,13 @@
     
   }
 
+  .row {
+    height: 40px;
+  }
+
+  nav {
+    height: 40px;
+  }
   body > div > div > div > h1 > a {
     font-family: var(--bs-body-font-family);
     text-decoration:none;
