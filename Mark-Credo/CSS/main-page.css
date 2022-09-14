@@ -9,6 +9,7 @@
 
   .dropdown:hover .dropdown-menu{
     display: block;
+    /* background-color: #171717 !important; */
   }
 
   .nav-link:hover {
@@ -19,13 +20,17 @@
     border-top: transparent;
     border-left: transparent;
     border-right: transparent;
-    border-width: 0.5px;
+    border-width: 0.1px;
     transition-duration: 0.2s;
+    align-content: center;
+    justify-content: center;
+
   }
 
   nav > ul > li > .nav-link {
     font-weight: bold;
     text-decoration: none;
+    height: 115%;
   }
 
   nav > ul > li > .nav-link:hover {
@@ -37,17 +42,21 @@
     border-top: transparent;
     border-left: transparent;
     border-right: transparent;
-    border-width: 0.5px;
+    border-bottom: 0.1px solid green;
     transition-duration: 0.2s;
-
+    height: 100%;
+    align-content: center;
+    justify-content: center;
+    height: 115%;
   }
 
   .row {
-    height: 40px;
+    height: 45px;
   }
 
   nav {
     height: 40px;
+
   }
 
   body > div > div > div > h1 > a:hover {
