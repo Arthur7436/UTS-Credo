@@ -11,46 +11,71 @@
 
   .dropdown:hover .dropdown-menu{
     display: block;
+    background-color: black;
   }
 
-  .nav-link:hover {
-    font-weight: bold;
-    background-color: #171717 !important;
-    border-color: #33a02c;
+  .dropdown-item {
+    color: var(--bs-credo-green-main);
+    background-color: black;
+  }
+
+  .dropdown-item:hover {
+    background-color: #171717;
+    color: var(--bs-link-hover-color);
     border-style: solid;
     border-top: transparent;
     border-left: transparent;
     border-right: transparent;
     border-width: 0.5px;
     transition-duration: 0.2s;
+    line-height: 1.5;
+  }
+  nav {
+    background-color: black;
+    height: 60px !important;
+  }
+
+  .navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 170, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    margin: auto;
+  }
+
+  .navbartoggle {
     align-content: center;
     justify-content: center;
-
   }
 
-/* If the code is too 'deep', how do we CSS it? */
-/*  */
-nav > ul > li > .nav-link {
-    font-weight: bold;
-    text-decoration: none;
-    height: 115%;
+  .nav-item .nav-link {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
   }
 
-  nav > ul > li > .nav-link:hover {
-    color:var(--bs-link-hover-color);
+  body > nav > div > a {
+    color: var(--bs-credo-green-main)!important;
+    font-family: var(--bs-body-font-family);
+    font-size: 38px !important;
+    font-weight: 800 !important;
+  }
+
+  .nav-link {
+    color: var(--bs-link-color);
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: none;
     text-decoration: none;
-    background-color: #171717;
-    border-color: #33a02c;
+    transition-duration: 0.2s;
+  }
+
+  .nav-link:hover {
+    color: var(--bs-link-hover-color);
+    background-color: #171717 ;
     border-style: solid;
     border-top: transparent;
     border-left: transparent;
     border-right: transparent;
-    border-bottom: 0.5px solid green;
+    border-width: 0.5px;
     transition-duration: 0.2s;
-    height: 100%;
-    align-content: center;
-    justify-content: center;
-    height: 115%;
+    
   }
 
   .row {
@@ -59,21 +84,8 @@ nav > ul > li > .nav-link {
 
   nav {
     height: 40px;
-
   }
 
-  body > div > div > div > h1 > a:hover {
-    font-family: var(--bs-body-font-family);
-    color: var(--bs-credo-green-main);  
-  }
-
-  body > div > div > div > h1 > a {
-    text-decoration: none;
-  }
-
-  body > div {
-    padding: 10px;
-  }
 
 /* Blurb section */
 
