@@ -106,27 +106,31 @@
   
   /* Links to the four webpages */
 
-  section > p > a:hover {
+  #webpage-section {
     margin-top: 40px;
     margin-bottom: 90px;
     line-height: 5;
-    color: var(--bs-credo-green-main)
+    color: var(--bs-credo-green-main);
+    text-decoration: none;
   }
 
-  section > p > a {
+  #webpage-section:hover {
+    color: var(--bs-credo-green-main);
+  }
+
+  #webpage-links {
     text-decoration:none;
     font-weight: 900;
     font-size: 30px;
     padding: 20px;
+
+
   }
 
   /* Footer section */
-  
-  section > footer {
-    height: 300px;
-  }
 
-  section > footer > div {
+  #copyright {
+    margin-top: 20px;
     font-size: 16px;
     font-weight: none;
   }
