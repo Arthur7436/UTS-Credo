@@ -83,7 +83,15 @@
   .row {
     height: 45px;
   }
+/* image section */
 
+.mark-img {
+  margin-top: 70px;
+}
+
+.green-arrow {
+  margin-top: 20px;
+}
 
 /* Blurb section */
 
@@ -129,7 +137,11 @@
   }
 
 
-#five-rs {
+
+
+
+
+  #five-rs {
   text-align: center;
   background-color: #E0BA56; 
   padding-bottom: 4rem; 
