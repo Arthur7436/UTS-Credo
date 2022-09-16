@@ -30,10 +30,6 @@
     transition-duration: 0.2s;
     line-height: 1.5;
   }
-  nav {
-    background-color: black;
-    height: 60px !important;
-  }
 
   .navbar-light .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 170, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
@@ -50,11 +46,20 @@
     padding-right: 20px !important;
   }
 
-  body > nav > div > a {
+  .navbar-brand {
     color: var(--bs-credo-green-main)!important;
     font-family: var(--bs-body-font-family);
-    font-size: 38px !important;
+    font-size: 33px !important;
     font-weight: 800 !important;
+    padding:0;
+  }
+
+  .navbar {
+    padding:0;
+  }
+
+  .navbar .container-fluid {
+    background: #000;
   }
 
   .nav-link {
@@ -64,26 +69,19 @@
     text-transform: none;
     text-decoration: none;
     transition-duration: 0.2s;
+    margin-bottom: 1px;
   }
 
   .nav-link:hover {
     color: var(--bs-link-hover-color);
     background-color: #171717 ;
-    border-style: solid;
-    border-top: transparent;
-    border-left: transparent;
-    border-right: transparent;
-    border-width: 0.5px;
-    transition-duration: 0.2s;
-    
+    border-bottom: 1px solid var(--bs-link-hover-color);
+    transition-duration: 0.2s;    
+    margin-bottom: 0;
   }
 
   .row {
     height: 45px;
-  }
-
-  nav {
-    height: 40px;
   }
 
 
@@ -94,7 +92,8 @@
     padding:1.5rem;
     font-size:20px;
     line-height:2.5;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; width:75%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    width:75%;
   }
   
   /* Links to the four webpages */
@@ -130,6 +129,11 @@
   }
 
 
-
+#five-rs {
+  text-align: center;
+  background-color: #E0BA56; 
+  padding-bottom: 4rem; 
+  padding-top: 4rem;  
+}
 
 
