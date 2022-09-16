@@ -135,13 +135,38 @@
     font-weight: none;
   }
 
-  section > footer > div > div {
-    width: 100%; 
-    padding: 4rem;
+  .row {
+    justify-content: space-around;
+    display: flex;
   }
 
+  #container {
+    width: 35%;
+    padding-bottom: 9rem;
+  }
+  * {
+    box-sizing: border-box;
+  }
 
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 30px;
 
+    
+  }
+
+  .row::after {
+    content: "";
+  }
+
+  #activate-logo {
+    margin-top: 27px;
+  }
+  /* section > footer > div > div {
+    width: 100%; 
+    padding: 4rem;
+  } */
 
 
 
