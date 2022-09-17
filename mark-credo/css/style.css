@@ -163,6 +163,21 @@
   }
 }
 
+/* 7 Stories page */
+
+.seven-links {
+  text-align: center;
+  color: var(--bs-credo-green-main);
+  font-size: 2em;
+  line-height: 1.2em;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.seven-links:hover {
+  color:var(--bs-credo-green-main) !important;
+  text-decoration: none !important;
+}
 
   #five-rs {
   text-align: center;
