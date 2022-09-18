@@ -165,11 +165,22 @@
 
 /* 7 Stories page */
 
+#seven-stories-title {
+  color: var(--bs-credo-green-main);
+ font-weight: 900;
+ margin-top: 100px;
+ margin-bottom: 140px;
+}
+
+#seven-stories-blurb {
+  width: 100%;
+  line-height: 1.7;
+}
 .seven-links {
   color: var(--bs-credo-green-main);
-  font-size: 2em;
-  line-height: 1.2em;
-  font-weight: 400;
+  font-size: 1.4em;
+  line-height: 2.6em;
+  font-weight: 100;
   text-decoration: none;
 
 }
@@ -177,6 +188,11 @@
 .seven-links:hover {
   color:#404040;
   text-decoration: none !important;
+}
+
+#seven-links-section {
+  margin-top: 40px;
+  margin-bottom: 150px;
 }
 
 
