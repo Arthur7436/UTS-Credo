@@ -170,14 +170,19 @@
   color: var(--bs-credo-green-main);
   font-size: 2em;
   line-height: 1.2em;
-  font-weight: normal;
+  font-weight: 400;
   text-decoration: none;
+
 }
 
 .seven-links:hover {
-  color:var(--bs-credo-green-main) !important;
+  color:#404040;
   text-decoration: none !important;
 }
+
+
+
+
 
   #five-rs {
   text-align: center;
