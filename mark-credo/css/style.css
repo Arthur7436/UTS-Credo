@@ -243,17 +243,32 @@
   font-size: 45px;
 }
 
+/* the beginning */
 
-
-
-
-
-
-  #five-rs {
-  text-align: center;
-  background-color: #E0BA56; 
-  padding-bottom: 4rem; 
-  padding-top: 4rem;  
+#questions-title {
+  font-weight: 900;
+  font-family: var(--bs-body-font-family);
+  font-size: 36px;
 }
+#five-questions-section {
+  text-align: center;
+  color: #404040;
+  background-color: #E0BA56;
+  font-family: var(--bs-blurb-font-family);
+}
+
+#five-questions {
+  text-align: center;
+  font-size: 15px;
+  line-height: 0.5;
+}
+
+#five-rs {
+  font-size: 18px;
+  font-weight: 900;
+  font-family: var(--bs-body-font-family);
+  
+}
+
 
 
