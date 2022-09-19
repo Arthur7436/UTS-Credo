@@ -243,8 +243,11 @@
   font-size: 45px;
 }
 
-/* the beginning */
-
+/* the beginning page */
+#the-beginning-section {
+  font-family: var(--bs-body-font-family) !important;
+  font-weight: 1000;
+}
 #questions-title {
   font-weight: 900;
   font-family: var(--bs-body-font-family);
@@ -274,9 +277,11 @@
   text-align: left;
   font-weight: 900;
 }
+
 .glossary {
   font-size: 15px;
   text-align: left;
 }
+
 
 
