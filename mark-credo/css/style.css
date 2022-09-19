@@ -270,5 +270,13 @@
   
 }
 
+#glossary-subtitle {
+  text-align: left;
+  font-weight: 900;
+}
+.glossary {
+  font-size: 15px;
+  text-align: left;
+}
 
 
