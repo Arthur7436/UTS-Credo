@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+:root {
+    --bs-credo-green-main:#33a02c;
+    --bs-link-color:#33a02c;
+    --bs-link-hover-color:#4dc66b;
+    --bs-body-font-family: 'Source Sans Pro', sans-serif;
+    --bs-blurb-font-family: 'Open Sans', sans-serif;
+}
+
+/* Navbar section */
+
+  .dropdown:hover .dropdown-menu{
+    display: block;
+    background-color: black;
+  }
+
+  .dropdown-item {
+    color: var(--bs-credo-green-main);
+    background-color: black;
+  }
+
+  .dropdown-item:hover {
+    background-color: #171717;
+    color: var(--bs-link-hover-color);
+    border-style: solid;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-width: 0.5px;
+    transition-duration: 0.2s;
+    line-height: 1.5;
+  }
+
+  /* image color of navbar toggle to green */
+  .navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 170, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    margin: auto;
+  }
+
+  .navbartoggle {
+    align-content: center;
+    justify-content: center;
+  }
+
+  .nav-item .nav-link {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  .navbar-brand {
+    color: var(--bs-credo-green-main)!important;
+    font-family: var(--bs-body-font-family);
+    font-size: 33px !important;
+    font-weight: 800 !important;
+    padding:0;
+  }
+
+  .navbar {
+    padding:0;
+  }
+
+  .navbar .container-fluid {
+    background: #000;
+  }
+
+  .nav-link {
+    color: var(--bs-link-color);
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: none;
+    text-decoration: none;
+    transition-duration: 0.2s;
+    margin-bottom: 1px;
+  }
+
+  .nav-link:hover {
+    color: var(--bs-link-hover-color);
+    background-color: #171717 ;
+    border-bottom: 1px solid var(--bs-link-hover-color);
+    transition-duration: 0.2s;    
+    margin-bottom: 0;
+  }
+
+/* image section */
+
+.mark-img {
+  margin-top: 70px;
+}
+
+.green-arrow {
+  margin-top: 20px;
+}
+
+/* Blurb section */
+
+  section > div {
+    text-align: center;
+    padding:1.5rem;
+    font-size:20px;
+    line-height: 1.8;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    width:70%;
+  }
+  
+  /* Links to the four webpages */
+
+  #webpage-section {
+    margin-top: 40px;
+    margin-bottom: 90px;
+    line-height: 5;
+    color: var(--bs-credo-green-main);
+    text-decoration: none;
+  }
+
+  #webpage-section:hover {
+    color: var(--bs-credo-green-main);
+  }
+
+  #webpage-links {
+    text-decoration:none;
+    font-weight: 900;
+    font-size: 30px;
+    padding: 20px;
+    color: var(--bs-credo-green-main);
+  }
+
+  /* Footer section */
+
+  #footer-bg {
+    background-color: #171717
+  }
+
+  #copyright {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: none;
+  }
+
+  .row {
+    justify-content: space-around;
+    display: flex;
+  }
+
+  .col-1 {
+    margin-top: 90px;
+    width: 25%;
+  }
+
+  #container {
+    padding-bottom: 5rem;
+    width: 50%;
+    margin-bottom: 20px;
+
+  }
+
+#activate-logo {
+  margin-top: 23px;
+}
+
+@media (max-width:600px) {
+  .col-1 {
+    width:30%;
+  }
+}
+
+/* 7 Stories page */
+
+#seven-stories-title {
+  color: var(--bs-credo-green-main);
+ font-weight: 900;
+ margin-top: 100px;
+ margin-bottom: 140px;
+}
+
+#seven-stories-blurb {
+  width: 90%;
+  line-height: 1.7;
+}
+.seven-links {
+  color: var(--bs-credo-green-main);
+  font-size: 1.4em;
+  line-height: 2.6em;
+  font-weight: 100;
+  text-decoration: none;
+
+}
+
+.seven-links:hover {
+  color:#404040;
+  text-decoration: none !important;
+}
+
+#seven-links-section {
+  margin-top: 40px;
+  margin-bottom: 150px;
+}
+
+
+/* The Story So Far page */
+
+#The-Story-So-Far-section {
+  margin-bottom: 120px;
+}
+#The-Story-So-Far-title {
+  color: var(--bs-credo-green-main);
+ font-weight: 900;
+ margin-top: 100px;
+ margin-bottom: 140px;
+}
+
+#The-Story-So-Far-blurb {
+  font-size: 17px;
+  line-height: 1.5;
+  font-weight: 500;
+  width: 90%;
+  text-align: left;
+  color: #404040;
+  font-family: var(--bs-blurb-font-family);
+
+}
+
+#The-Story-So-Far-subtitle {
+  font-size: 17px;
+  line-height: 1.6;
+  font-weight: 400;
+  width: 90%;
+  text-align: left;
+  color: #404040;
+  text-align: left;
+  font-weight: bolder;
+}
+
+/* Video page */
+
+#video-title {
+  color: var(--bs-credo-green-main);
+  font-weight: 900;
+  margin-top: 130px;
+  margin-bottom: 160px;
+  font-size: 45px;
+}
+
+/* the beginning page */
+#the-beginning-section {
+  font-family: var(--bs-body-font-family) !important;
+  font-weight: 1000;
+}
+#questions-title {
+  font-weight: 900;
+  font-family: var(--bs-body-font-family);
+  font-size: 36px;
+}
+#five-questions-section {
+  text-align: center;
+  color: #404040;
+  background-color: #E0BA56;
+  font-family: var(--bs-blurb-font-family);
+}
+
+#five-questions {
+  text-align: center;
+  font-size: 15px;
+  line-height: 0.5;
+}
+
+#five-rs {
+  font-size: 18px;
+  font-weight: 900;
+  font-family: var(--bs-body-font-family);
+  
+}
+
+#glossary-subtitle {
+  text-align: left;
+  font-weight: 900;
+}
+
+.glossary {
+  font-size: 15px;
+  text-align: left;
+}
+
+
+
