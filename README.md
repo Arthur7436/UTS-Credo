@@ -6,7 +6,7 @@ Initially, this project was given by a friend in a social club at UTS called 'Cr
 
 This project has allowed me to solidfy my understanding of HTML, CSS and Bootstrap 5.
 
-Please click here to see the project.
+Please click <a href="">here</a> to see the project.
 
 ## Technologies used 
 + HTML
