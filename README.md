@@ -2,10 +2,15 @@
 
 
 ## About
-Initially, this project was given by a friend in a social club at UTS called 'Credo'. The task given to me was to replicate and rebuild, from scratch, the original 'Mark Credo' website which can be seen <a href="https://mark.credo.org.au/">here</a>. 
+Initially, this project was given by a friend in a social club at UTS called 'Credo'. The task given to me was to replicate and rebuild, from scratch, the original 'Mark Credo' website which can be seen <a href="https://mark.credo.org.au/">here</a>. This website consisted of 11 responsive webpages, whilst using Bootstrap 5. At the time I did not know how to use Bootstrap 5, however, was able to complete the whole project (along with learning this framework) wtihin 1 week. In the middle of building this project, I used a language that I have not used before (PHP) and used it to my advantage to build the 11 webpages more efficiently.
 
-## Languages used 
+This project has allowed me to solidfy my understanding of HTML, CSS and Bootstrap 5.
 
+## Technologies used 
++ HTML
++ CSS
++ Bootstrap 5
++ PHP
 
 
 
