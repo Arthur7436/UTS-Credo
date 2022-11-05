@@ -8,11 +8,14 @@ This project has allowed me to solidfy my understanding of HTML, CSS and Bootstr
 
 Please click <a href="">here</a> to see the project.
 
+
 ## Technologies used 
 + HTML
 + CSS
 + Bootstrap 5
 + PHP
++ Git
++ VSCode
 
 
 
